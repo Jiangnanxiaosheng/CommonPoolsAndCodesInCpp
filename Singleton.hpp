@@ -1,8 +1,9 @@
-#include <iostream>
+#pragma  once
+
 #include <memory>
 #include <mutex>
 
-inline int CHOOSE = 0;
+inline int CHOOSE = 1;
 
 #if CHOOSE
 template <typename T>
