@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <iterator>
+#include <fstream>
 #include "Singleton.hpp"
 
 class FileMgr : public Singleton<FileMgr> {
