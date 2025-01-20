@@ -86,5 +86,3 @@ private:
     std::atomic<bool> m_stop {false};
     std::condition_variable m_cv;
 };
-
-
