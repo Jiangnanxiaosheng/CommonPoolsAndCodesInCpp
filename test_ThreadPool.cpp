@@ -2,7 +2,6 @@
 #include <chrono>
 #include <memory>
 #include "ThreadPool.hpp"
-#include "thread_pool2.h"
 #if 1
 int main() {
 
